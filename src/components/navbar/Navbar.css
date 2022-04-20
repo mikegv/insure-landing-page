@@ -1,0 +1,31 @@
+.nav{
+    padding: 30px 80px 30px 80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav ul li{
+    margin: 0px 10px 0px 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: hsl(216, 30%, 68%);
+}
+.nav ul li a:hover{
+    color: hsl(272, 62%, 33%);
+}
+
+.nav ul li .boxLink{
+    border: solid 2px hsl(274, 26%, 21%);
+    padding: 10px 15px 10px 15px;
+    color: hsl(274, 26%, 21%);
+}
+.nav ul li .boxLink:hover{
+    background-color: hsl(274, 26%, 21%);
+    color: white;
+}
