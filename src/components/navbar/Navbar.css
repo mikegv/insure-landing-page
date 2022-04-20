@@ -1,9 +1,9 @@
 .nav{
-    padding: 30px 80px 30px 80px;
+    padding: 30px 150px 30px 150px;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: bold;
+    font-weight: bold; 
 }
 .nav ul{
     list-style-type: none;

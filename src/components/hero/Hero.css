@@ -1,3 +1,25 @@
 .hero{
-    
+   background-color: hsl(270, 18%, 30%);
+   height:93vh;
+   padding: 0px 150px 0px 150px;
 }
+.heroLeft p{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+.heroContent{
+    color: white;
+    display:flex;
+    line-height: 30px;
+    margin-top:150px;
+    margin-bottom: 150px;
+}
+.hero hr{
+    width: 200px;
+    height: 3px;
+    margin-bottom: 50px;
+}
+
+

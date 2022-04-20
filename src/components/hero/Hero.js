@@ -4,18 +4,23 @@ import './Hero.css'
 const Hero = () => {
     return (
         <div className='hero'>
-            Hero
-            
-            Humanizing your insurance.
+            <div className='heroContent'>
+                <div className='heroLeft'>
+                    <hr />
+                    <p>Humanizing <br /> your insurance.</p>
 
-Get your life insurance coverage easier and faster. We blend our expertise 
-and technology to help you find the plan that’s right for you. Ensure you 
-and your loved ones are protected.
+                    Get your life insurance coverage easier and faster. We blend our expertise
+                    and technology to help you find the plan that’s right for you. Ensure you
+                    and your loved ones are protected.
 
-View plans
- <img src={process.env.PUBLIC_URL + '/images/image-intro-desktop.jpg'} alt='intro desktop' />
+                    View plans
+                </div>
+                <div className='heroRight'>
+                    <img src={process.env.PUBLIC_URL + '/images/image-intro-desktop.jpg'} alt='intro desktop' />
 
-Hero
+                    Hero
+                </div>
+            </div>
         </div>
     );
 };
