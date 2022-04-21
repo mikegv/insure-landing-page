@@ -1,25 +1,58 @@
 .hero{
-   background-color: hsl(270, 18%, 30%);
-   height:93vh;
-   padding: 0px 150px 0px 150px;
+   height: 1000px;
+   position: relative;
 }
-.heroLeft p{
+.hero .bgRightPattern{
+    position: absolute;
+    top: 0;
+    right:0;
+}
+.hero .bgLeftPattern{
+    position:absolute;
+    bottom: 0;
+}
+
+.heroContent{
+   background-color: hsl(270, 18%, 30%);
+   height:700px;
+   padding: 180px 150px 0px 150px;
+   color: white;
+   display:flex;
+
+}
+.heroLeft{
+    line-height: 30px;
+    margin-right: 40px;
+}
+.heroTitle{
     font-size: 60px;
     font-weight: bold;
     line-height: 60px;
     margin-bottom: 40px;
 }
-.heroContent{
-    color: white;
-    display:flex;
-    line-height: 30px;
-    margin-top:150px;
-    margin-bottom: 150px;
-}
-.hero hr{
+
+.heroTopHr{
     width: 200px;
     height: 3px;
     margin-bottom: 50px;
+    background-color: white;
 }
-
+.bottomHeroHr{
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    width: 200px;
+    background-color: rgb(209, 55, 173);
+}
+.heroBoxLink{
+    border: solid 2px white;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.heroBoxLink:hover{
+    background-color: white;
+    color: hsl(274, 26%, 21%);
+}
 
