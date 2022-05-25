@@ -1,0 +1,12 @@
+.content{
+    margin-top: 40px;
+}
+.cardContainer{
+    margin-top: 20px;
+    display: flex;
+    padding: 40px;
+}
+
+.card *{
+    margin-top: 20px;
+}
