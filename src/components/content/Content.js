@@ -9,37 +9,38 @@ const Content = () => {
 
             <div className='cardContainer'>
                 <div className='card'>
-                <img src={process.env.PUBLIC_URL + '/images/icon-snappy-process.svg'} alt="snappy icon" />
+                    <img src={process.env.PUBLIC_URL + '/images/icon-snappy-process.svg'} alt="snappy icon" />
 
-                <h4>
-                    Snappy Process
-                </h4>
-                Our application process can be completed in minutes, not hours. Don’t get
-                stuck filling in tedious forms.
+                    <h2>
+                        Snappy Process
+                    </h2>
+                    <p>Our application process can be completed in minutes, not hours. Don’t get
+                    stuck filling in tedious forms.</p>
                 </div>
                 <div className='card'>
-                <img src={process.env.PUBLIC_URL + '/images/icon-affordable-prices.svg'} alt="snappy icon" />
+                    <img src={process.env.PUBLIC_URL + '/images/icon-affordable-prices.svg'} alt="snappy icon" />
 
-                <h4>
-                    Affordable Prices
-                </h4>
-                We don’t want you worrying about high monthly costs. Our prices may be low,
-                but we still offer the best coverage possible.
-</div>
-<div className='card'>
-                <img src={process.env.PUBLIC_URL + '/images/icon-people-first.svg'} alt="snappy icon" />
+                    <h2>
+                        Affordable Prices
+                    </h2>
+                    <p>We don’t want you worrying about high monthly costs. Our prices may be low,
+                    but we still offer the best coverage possible.</p>
+                </div>
+                <div className='card'>
+                    <img src={process.env.PUBLIC_URL + '/images/icon-people-first.svg'} alt="snappy icon" />
 
-                <h4>
-                    People First
-                </h4>
-                Our plans aren’t full of conditions and clauses to prevent payouts. We make
-                sure you’re covered when you need it.
+                    <h2>
+                        People First
+                    </h2>
+                    <p>Our plans aren’t full of conditions and clauses to prevent payouts. We make
+                    sure you’re covered when you need it.</p>
                 </div>
             </div>
             <div className='contentBanner'>
-                Find out more about how we work
+                <h1>Find out more<br />about how we work</h1>
 
-                How we work
+                <a href="#" className='boxLink'>How we work</a>
+
 
             </div>
         </div>
