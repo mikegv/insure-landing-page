@@ -12,7 +12,6 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
